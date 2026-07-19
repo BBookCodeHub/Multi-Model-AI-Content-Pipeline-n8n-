@@ -4,7 +4,14 @@ An automated, end-to-end pipeline that takes a daily trigger and produces finish
 
 It's a personal project I built to get hands-on with agent-orchestrated automation: chaining several AI models together so each one hands its output to the next, all coordinated inside n8n.
 
+**Created:** *June 7, 2026*
+
 **Built with:** n8n · OpenAI GPT-4o · Stability AI · RunwayML (Gen4 Turbo) · Creatomate
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71)
+![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)
+![OpenAI GPT-4o](https://img.shields.io/badge/OpenAI_GPT--4o-412991?logo=openai&logoColor=fff)
+![AI Automation](https://img.shields.io/badge/AI_Automation-6E40C9)
 
 ---
 
@@ -35,8 +42,29 @@ flowchart LR
 The pipeline is split across three connected n8n workflows so each stage stays clean and easy to debug:
 
 - **Workflow 1 — Idea & script:** the daily trigger and the GPT-4o agents.
-- **Workflow 2 — Visuals:** image generation, then video generation.
-- **Workflow 3 — Assembly:** final composition into a single video.
+- **Workflow 2 — Visuals & Assembly:** image generation, video generation, then final composition into a single video.
+
+**Content Automation Pipeline:**
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/content-triggerandscript.png" width="800"><br>
+      <b>Script Generation</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/content-asset-assembly.png" width="800"><br>
+      <b>Asset Creation & Assembly</b>
+    </td>
+  </tr>
+</table>
+
+**Data Storage**
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/content-storage.png" width="600"><br>
+      <b>Script Storage & Content Type</b>
+</table>
 
 ## A few things I figured out along the way
 
