@@ -2,7 +2,7 @@
 
 An automated, end-to-end pipeline that takes a daily trigger and produces finished **Mortal Kombat–themed** video content with no human in the loop, from the first idea all the way to an assembled video.
 
-It's a personal project I built to get hands-on with agent-orchestrated automation: chaining several AI models together so each one hands its output to the next, all coordinated inside n8n.
+It's a personal project that I built to get hands-on with agent-orchestrated automation: chaining several AI models together so each one hands its output to the next, all coordinated inside n8n.
 
 **Created:** *June 7, 2026*
 
